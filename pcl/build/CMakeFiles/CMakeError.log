@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79373/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79373.dir/build.make CMakeFiles/cmTC_79373.dir/build
+make[1]: ingresso nella directory "/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_79373.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_79373.dir/CheckSymbolExists.c.o   -c /home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_79373
+/home/moreno/.local/lib/python2.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79373.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_79373.dir/CheckSymbolExists.c.o  -o cmTC_79373 
+CMakeFiles/cmTC_79373.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_79373.dir/build.make:86: set di istruzioni per l'obiettivo "cmTC_79373" non riuscito
+make[1]: *** [cmTC_79373] Errore 1
+make[1]: uscita dalla directory "/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_79373/fast" non riuscito
+make: *** [cmTC_79373/fast] Errore 2
+
+File /home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48657/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48657.dir/build.make CMakeFiles/cmTC_48657.dir/build
+make[1]: ingresso nella directory "/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_48657.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_48657.dir/CheckFunctionExists.c.o   -c /home/moreno/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48657
+/home/moreno/.local/lib/python2.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48657.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_48657.dir/CheckFunctionExists.c.o  -o cmTC_48657 -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_48657.dir/build.make:86: set di istruzioni per l'obiettivo "cmTC_48657" non riuscito
+make[1]: *** [cmTC_48657] Errore 1
+make[1]: uscita dalla directory "/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_48657/fast" non riuscito
+make: *** [cmTC_48657/fast] Errore 2
+
+

@@ -1,0 +1,4 @@
+/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/rebuild_cache.dir
+/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/edit_cache.dir
+/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/clustering.dir
+/home/moreno/catkin_ws/src/homework3/pcl/build/CMakeFiles/xyzTopcd.dir
