@@ -10,7 +10,7 @@ Librerie OpenCv installate <br>
 ORB_SLAM2 installato <br>
 
 # Esecuzione:
-Eseguire il clone della repository tramite "git clone https://github.com/FrancescoTrotti/homework3.git" dalla cartella "catkin_ws/src".<br>
+Eseguire il clone della repository tramite "git clone https://github.com/MorenoBragaglio/homework3.git" dalla cartella "catkin_ws/src".<br>
 Dalla directory "ORB_SLAM2/pcl/bin" eseguire "./clustering" per visualizzare la nuvola di punti clusterizzata.
 Se si vuole eseguire completamente ORB_SLAM è necessario andare nella cartella ORB_SLAM2/src e sostituire il file "System.cc"
 scaricato.<br>
@@ -36,5 +36,5 @@ Infine sono stati modificati i parametri del file "clustering.cpp" in modo tale 
 Esecuzione di ORB_SLAM2 con la bag "V1_01_easy.bag".<br>
 ![alt text](https://github.com/MorenoBragaglio/homework3/blob/master/Image/Clustering_0.2.png)
 Cluster di punti con tolleranza 0.2.<br>
-![alt text](https://github.com/MorenoBragaglio/homework3/blob/master/Image/Clustering_0.15.png)
+![alt text](https://github.com/MorenoBragaglio/homework3/blob/master/Image/clustering_0.15.png)
 Cluster di punti con tolleranza 0.15.<br>
