@@ -1,4 +1,5 @@
 # Homework3
+Gestione file bag di una scena registrata. Visualizzazione dei punti della scena tramite ORB-SLAM e relativa segmentazione degli oggetti presenti nella scena stessa.
 
 # Corso ciberfisico univr
 - Autore: Moreno Bragaglio
